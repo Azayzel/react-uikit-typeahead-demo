@@ -22,8 +22,10 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App uk-margin-medium">
-        <p className="uk-text-muted">Selected: {this.state.selected}</p>
+      <div className="App">
+        <header className="App-header">
+          <p className="uk-text-muted">Selected: {this.state.selected}</p>
+        </header>
         <div className="uk-card uk-card-default uk-card-small uk-width-1-6 uk-align-center">
           <div className="uk-form-controls">
             <TypeAhead suggestions={this.state.typeAheadSuggestions} showSuggestions={true} handleTypeAheadChange={this.handleTypeAheadChange} />
