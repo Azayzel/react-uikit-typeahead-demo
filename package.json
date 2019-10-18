@@ -2,7 +2,7 @@
   "name": "typeahead-demo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://azayzel.github.io/react-uikit-typeahead-demo",
+  "homepage": "http://azayzel.github.io/react-uikit-typeahead-demo/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Azayzel/react-uikit-typeahead-demo.git"
